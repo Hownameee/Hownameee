@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="170" viewBox="0 0 380 170" fill="none" role="img" aria-labelledby="title description" shape-rendering="geometricPrecision">
+    <title id="title">Most Used Languages</title>
+    <desc id="description">A breakdown of the programming languages used across public repositories.</desc>
+    <defs>
+        <clipPath id="bar-clip">
+            <rect x="22" y="55" width="336" height="11" rx="6"/>
+        </clipPath>
+        <style>
+            text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+            .heading { fill: #ff79c6; font-size: 16px; font-weight: 700; letter-spacing: .15px; }
+            .eyebrow { fill: #6272a4; font-size: 8px; font-weight: 700; letter-spacing: 1.15px; }
+            .name { fill: #f8f8f2; font-size: 12px; font-weight: 600; }
+            .percent { fill: #a8adc2; font-size: 10px; font-weight: 650; }
+            .empty-title { fill: #f8f8f2; font-size: 12px; font-weight: 600; }
+            .empty-copy { fill: #6272a4; font-size: 10px; font-weight: 500; }
+        </style>
+    </defs>
+    <rect x=".5" y=".5" width="379" height="169" rx="10" fill="#282a36" stroke="#44475a"/>
+    <circle cx="27" cy="29" r="8" fill="#ff79c6" opacity=".12"/>
+    <circle cx="27" cy="29" r="4" fill="#ff79c6"/>
+    <text x="42" y="34" class="heading">Most Used Languages</text>
+    <text x="358" y="32" text-anchor="end" class="eyebrow">PUBLIC REPOS</text>
+
+    <g transform="translate(22 55)">
+        <rect width="336" height="82" rx="8" fill="#242630" stroke="#44475a" stroke-dasharray="3 4"/>
+        <circle cx="168" cy="25" r="7" fill="#bd93f9" opacity=".12"/>
+        <circle cx="168" cy="25" r="3" fill="#bd93f9"/>
+        <text x="168" y="49" text-anchor="middle" class="empty-title">No language data yet</text>
+        <text x="168" y="65" text-anchor="middle" class="empty-copy">The next update will try again automatically.</text>
+    </g>
+</svg>

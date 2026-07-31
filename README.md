@@ -12,5 +12,5 @@
 <br/>
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hownameee&hide=jupyter%20notebook&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" height="165" />
+  <img src="./assets/top-langs.svg" alt="Top Languages" height="165" />
 </div>

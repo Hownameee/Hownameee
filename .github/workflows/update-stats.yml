@@ -1,0 +1,38 @@
+name: Update Language Stats Card
+
+on:
+  schedule:
+    # Run every day at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate Top Languages SVG
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HIDE_LANGS: 'jupyter notebook'
+        run: |
+          python3 scripts/generate_top_langs.py
+
+      - name: Commit and push changes if updated
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chrono: update top languages stats card [skip ci]"
+          file_pattern: "assets/top-langs.svg"
