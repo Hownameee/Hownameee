@@ -24,12 +24,12 @@
     <g aria-label="Language distribution bar">
         <rect x="22" y="55" width="336" height="11" rx="6" fill="#20212b" stroke="#44475a"/>
         <g clip-path="url(#bar-clip)">
-            <rect x="22.00" y="55" width="245.16" height="11" fill="#b07219"/>
-            <rect x="267.16" y="55" width="41.53" height="11" fill="#f1e05a"/>
-            <rect x="308.69" y="55" width="24.25" height="11" fill="#3178c6"/>
-            <rect x="332.94" y="55" width="7.84" height="11" fill="#f34b7d"/>
-            <rect x="340.78" y="55" width="4.91" height="11" fill="#563d7c"/>
-            <rect x="345.69" y="55" width="12.31" height="11" fill="#6272a4"/>
+            <rect x="22.00" y="55" width="245.25" height="11" fill="#b07219"/>
+            <rect x="267.25" y="55" width="41.55" height="11" fill="#f1e05a"/>
+            <rect x="308.79" y="55" width="24.26" height="11" fill="#3178c6"/>
+            <rect x="333.05" y="55" width="7.84" height="11" fill="#f34b7d"/>
+            <rect x="340.89" y="55" width="4.91" height="11" fill="#563d7c"/>
+            <rect x="345.81" y="55" width="12.19" height="11" fill="#6272a4"/>
         </g>
         <rect x="22.5" y="55.5" width="335" height="10" rx="5.5" stroke="#f8f8f2" stroke-opacity=".08"/>
     </g>
@@ -75,12 +75,12 @@
             <text x="138" y="10" text-anchor="middle" class="percent">1.5%</text>
         </g>
         
-        <g transform="translate(198, 134)" aria-label="Other: 3.7%">
+        <g transform="translate(198, 134)" aria-label="Other: 3.6%">
             <circle cx="6" cy="6" r="7" fill="#6272a4" opacity=".13"/>
             <circle cx="6" cy="6" r="3.5" fill="#6272a4"/>
             <text x="19" y="10" class="name">Other</text>
             <rect x="116" y="-4" width="44" height="20" rx="6" fill="#303241" stroke="#44475a"/>
-            <text x="138" y="10" text-anchor="middle" class="percent">3.7%</text>
+            <text x="138" y="10" text-anchor="middle" class="percent">3.6%</text>
         </g>
         
 </svg>
