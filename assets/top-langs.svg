@@ -24,8 +24,8 @@
     <g aria-label="Language distribution bar">
         <rect x="22" y="55" width="336" height="11" rx="6" fill="#20212b" stroke="#44475a"/>
         <g clip-path="url(#bar-clip)">
-            <rect x="22.00" y="55" width="229.53" height="11" fill="#b07219"/>
-            <rect x="251.53" y="55" width="45.39" height="11" fill="#3178c6"/>
+            <rect x="22.00" y="55" width="229.54" height="11" fill="#b07219"/>
+            <rect x="251.54" y="55" width="45.38" height="11" fill="#3178c6"/>
             <rect x="296.92" y="55" width="37.51" height="11" fill="#f1e05a"/>
             <rect x="334.43" y="55" width="7.08" height="11" fill="#f34b7d"/>
             <rect x="341.50" y="55" width="5.21" height="11" fill="#563d7c"/>
