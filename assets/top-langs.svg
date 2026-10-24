@@ -24,23 +24,23 @@
     <g aria-label="Language distribution bar">
         <rect x="22" y="55" width="336" height="11" rx="6" fill="#20212b" stroke="#44475a"/>
         <g clip-path="url(#bar-clip)">
-            <rect x="22.00" y="55" width="178.33" height="11" fill="#b07219"/>
-            <rect x="200.33" y="55" width="59.54" height="11" fill="#3178c6"/>
-            <rect x="259.87" y="55" width="46.60" height="11" fill="#f1e05a"/>
-            <rect x="306.47" y="55" width="26.30" height="11" fill="#3572A5"/>
-            <rect x="332.77" y="55" width="11.71" height="11" fill="#e34c26"/>
-            <rect x="344.48" y="55" width="13.52" height="11" fill="#6272a4"/>
+            <rect x="22.00" y="55" width="177.81" height="11" fill="#b07219"/>
+            <rect x="199.81" y="55" width="59.36" height="11" fill="#3178c6"/>
+            <rect x="259.17" y="55" width="46.46" height="11" fill="#f1e05a"/>
+            <rect x="305.63" y="55" width="27.21" height="11" fill="#3572A5"/>
+            <rect x="332.84" y="55" width="11.67" height="11" fill="#e34c26"/>
+            <rect x="344.52" y="55" width="13.48" height="11" fill="#6272a4"/>
         </g>
         <rect x="22.5" y="55.5" width="335" height="10" rx="5.5" stroke="#f8f8f2" stroke-opacity=".08"/>
     </g>
     
     
-        <g transform="translate(22, 84)" aria-label="Java: 53.1%">
+        <g transform="translate(22, 84)" aria-label="Java: 52.9%">
             <circle cx="6" cy="6" r="7" fill="#b07219" opacity=".13"/>
             <circle cx="6" cy="6" r="3.5" fill="#b07219"/>
             <text x="19" y="10" class="name">Java</text>
             <rect x="116" y="-4" width="44" height="20" rx="6" fill="#303241" stroke="#44475a"/>
-            <text x="138" y="10" text-anchor="middle" class="percent">53.1%</text>
+            <text x="138" y="10" text-anchor="middle" class="percent">52.9%</text>
         </g>
         
         <g transform="translate(198, 84)" aria-label="TypeScript: 17.7%">
@@ -51,20 +51,20 @@
             <text x="138" y="10" text-anchor="middle" class="percent">17.7%</text>
         </g>
         
-        <g transform="translate(22, 109)" aria-label="JavaScript: 13.9%">
+        <g transform="translate(22, 109)" aria-label="JavaScript: 13.8%">
             <circle cx="6" cy="6" r="7" fill="#f1e05a" opacity=".13"/>
             <circle cx="6" cy="6" r="3.5" fill="#f1e05a"/>
             <text x="19" y="10" class="name">JavaScript</text>
             <rect x="116" y="-4" width="44" height="20" rx="6" fill="#303241" stroke="#44475a"/>
-            <text x="138" y="10" text-anchor="middle" class="percent">13.9%</text>
+            <text x="138" y="10" text-anchor="middle" class="percent">13.8%</text>
         </g>
         
-        <g transform="translate(198, 109)" aria-label="Python: 7.8%">
+        <g transform="translate(198, 109)" aria-label="Python: 8.1%">
             <circle cx="6" cy="6" r="7" fill="#3572A5" opacity=".13"/>
             <circle cx="6" cy="6" r="3.5" fill="#3572A5"/>
             <text x="19" y="10" class="name">Python</text>
             <rect x="116" y="-4" width="44" height="20" rx="6" fill="#303241" stroke="#44475a"/>
-            <text x="138" y="10" text-anchor="middle" class="percent">7.8%</text>
+            <text x="138" y="10" text-anchor="middle" class="percent">8.1%</text>
         </g>
         
         <g transform="translate(22, 134)" aria-label="HTML: 3.5%">
